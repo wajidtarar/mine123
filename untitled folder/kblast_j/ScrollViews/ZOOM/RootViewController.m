@@ -50,9 +50,9 @@
     [super viewDidLoad];
     
     appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
-
+    
     self.pageImages = [appDelegate imagesArrayDetails ];
-
+    
     
     UIScrollView *mainScrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     mainScrollView.pagingEnabled = YES;
@@ -63,19 +63,20 @@
     CGRect innerScrollFrame;
     float x = 0;
     for (NSInteger i = 0; i < [self.pageImages count]; i++) {
-//        for (NSInteger i = 0; i < 4; i++) {
-    
-//        UIImageView *imageForZooming = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"photo%d.png", i + 1]]];
+        //        for (NSInteger i = 0; i < 4; i++) {
+        
+        //        UIImageView *imageForZooming = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"photo%d.png", i + 1]]];
         UIImage *image = [self.pageImages objectAtIndex:i];
         UIImageView *imageForZooming = [[UIImageView alloc] initWithImage: image];
         imageForZooming.contentMode = UIViewContentModeScaleAspectFit;
         imageForZooming.tag = 100;
-        innerScrollFrame = CGRectMake(x, imageForZooming.frame.origin.y, 320, imageForZooming.frame.size.height);
+        innerScrollFrame = CGRectMake(x, imageForZooming.frame.origin.y, 320, 400);
+        imageForZooming.frame =CGRectMake(0, 0, 320, 400);;
         UIScrollView *pageScrollView = [[UIScrollView alloc] initWithFrame:innerScrollFrame];
-        pageScrollView.minimumZoomScale = .8f;
+        pageScrollView.minimumZoomScale = 1.0f;
         pageScrollView.maximumZoomScale = 2.0f;
-        pageScrollView.zoomScale = .8f;
-      //  pageScrollView.contentSize = imageForZooming.bounds.size;
+        pageScrollView.zoomScale = 1.0f;
+        //  pageScrollView.contentSize = imageForZooming.bounds.size;
         pageScrollView.delegate = self;
         pageScrollView.showsHorizontalScrollIndicator = NO;
         pageScrollView.showsVerticalScrollIndicator = NO;
@@ -84,7 +85,7 @@
         [mainScrollView addSubview:pageScrollView];
         
         //if (i < 2) {
-            x += innerScrollFrame.size.width;
+        x += innerScrollFrame.size.width;
         //}
     }
     
