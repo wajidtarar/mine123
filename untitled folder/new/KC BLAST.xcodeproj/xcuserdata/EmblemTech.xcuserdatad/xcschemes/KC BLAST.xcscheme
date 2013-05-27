@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C95304C214FECBB400BF68B6"
-               BuildableName = "kcblast.app"
-               BlueprintName = "kcblast"
-               ReferencedContainer = "container:kcblast.xcodeproj">
+               BuildableName = "KC BLAST.app"
+               BlueprintName = "KC BLAST"
+               ReferencedContainer = "container:KC BLAST.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C95304C214FECBB400BF68B6"
-            BuildableName = "kcblast.app"
-            BlueprintName = "kcblast"
-            ReferencedContainer = "container:kcblast.xcodeproj">
+            BuildableName = "KC BLAST.app"
+            BlueprintName = "KC BLAST"
+            ReferencedContainer = "container:KC BLAST.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C95304C214FECBB400BF68B6"
-            BuildableName = "kcblast.app"
-            BlueprintName = "kcblast"
-            ReferencedContainer = "container:kcblast.xcodeproj">
+            BuildableName = "KC BLAST.app"
+            BlueprintName = "KC BLAST"
+            ReferencedContainer = "container:KC BLAST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C95304C214FECBB400BF68B6"
-            BuildableName = "kcblast.app"
-            BlueprintName = "kcblast"
-            ReferencedContainer = "container:kcblast.xcodeproj">
+            BuildableName = "KC BLAST.app"
+            BlueprintName = "KC BLAST"
+            ReferencedContainer = "container:KC BLAST.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
