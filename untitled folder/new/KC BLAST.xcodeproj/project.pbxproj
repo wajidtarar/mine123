@@ -63,7 +63,6 @@
 		5AF6110B1737A21D00CFF53F /* keyPhotoConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF610FA1737A21D00CFF53F /* keyPhotoConfirmViewController.m */; };
 		5AF6110D1737A21D00CFF53F /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF610FF1737A21D00CFF53F /* ImageCollectionViewCell.m */; };
 		5AF6110E1737A21D00CFF53F /* KeyPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF611011737A21D00CFF53F /* KeyPicturesViewController.m */; };
-		5AF611101737A31400CFF53F /* MainStoryboard_iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF6110F1737A31400CFF53F /* MainStoryboard_iPhone4.storyboard */; };
 		C95304C814FECBB400BF68B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95304C714FECBB400BF68B6 /* UIKit.framework */; };
 		C95304CA14FECBB400BF68B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95304C914FECBB400BF68B6 /* Foundation.framework */; };
 		C95304CC14FECBB400BF68B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C95304CB14FECBB400BF68B6 /* CoreGraphics.framework */; };
@@ -72,12 +71,6 @@
 		C95304D814FECBB400BF68B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95304D714FECBB400BF68B6 /* AppDelegate.m */; };
 		C95304DB14FECBB400BF68B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95304D914FECBB400BF68B6 /* MainStoryboard.storyboard */; };
 		C95304DE14FECBB400BF68B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95304DD14FECBB400BF68B6 /* ViewController.m */; };
-		C95304EA14FEE31700BF68B6 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E414FEE31700BF68B6 /* photo1.png */; };
-		C95304EB14FEE31700BF68B6 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E514FEE31700BF68B6 /* photo2.png */; };
-		C95304EC14FEE31700BF68B6 /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E614FEE31700BF68B6 /* photo3.png */; };
-		C95304ED14FEE31700BF68B6 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E714FEE31700BF68B6 /* photo4.png */; };
-		C95304EE14FEE31700BF68B6 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E814FEE31700BF68B6 /* photo5.png */; };
-		C95304EF14FEE31700BF68B6 /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = C95304E914FEE31700BF68B6 /* slow.png */; };
 		C95304F214FEEFD100BF68B6 /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95304F114FEEFD100BF68B6 /* CustomScrollViewController.m */; };
 		C95304F514FEF3F100BF68B6 /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95304F414FEF3F100BF68B6 /* PagedScrollViewController.m */; };
 		C95304F814FF7A8000BF68B6 /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95304F714FF7A8000BF68B6 /* PeekPagedScrollViewController.m */; };
@@ -180,7 +173,6 @@
 		5AF610FF1737A21D00CFF53F /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
 		5AF611001737A21D00CFF53F /* KeyPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPicturesViewController.h; sourceTree = "<group>"; };
 		5AF611011737A21D00CFF53F /* KeyPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPicturesViewController.m; sourceTree = "<group>"; };
-		5AF6110F1737A31400CFF53F /* MainStoryboard_iPhone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone4.storyboard; sourceTree = "<group>"; };
 		C95304C314FECBB400BF68B6 /* KC BLAST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KC BLAST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95304C714FECBB400BF68B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C95304C914FECBB400BF68B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,12 +186,6 @@
 		C95304DA14FECBB400BF68B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C95304DC14FECBB400BF68B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C95304DD14FECBB400BF68B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C95304E414FEE31700BF68B6 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
-		C95304E514FEE31700BF68B6 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
-		C95304E614FEE31700BF68B6 /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
-		C95304E714FEE31700BF68B6 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
-		C95304E814FEE31700BF68B6 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
-		C95304E914FEE31700BF68B6 /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
 		C95304F014FEEFD100BF68B6 /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollViewController.h; sourceTree = "<group>"; };
 		C95304F114FEEFD100BF68B6 /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollViewController.m; sourceTree = "<group>"; };
 		C95304F314FEF3F000BF68B6 /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
@@ -490,7 +476,6 @@
 			children = (
 				FA1796281742B17C00EFE797 /* ZOOM */,
 				5AE7A02F173811790005DCF5 /* Stuff */,
-				5AF6110F1737A31400CFF53F /* MainStoryboard_iPhone4.storyboard */,
 				5AF610E41737A1D400CFF53F /* SVProgressHUD */,
 				5AF610CE1737A16C00CFF53F /* NSData+Addition */,
 				5AF610D11737A16C00CFF53F /* NSString+Addition */,
@@ -510,13 +495,7 @@
 				C95304F714FF7A8000BF68B6 /* PeekPagedScrollViewController.m */,
 				C95304F914FF822700BF68B6 /* ScrollViewContainer.h */,
 				C95304FA14FF822700BF68B6 /* ScrollViewContainer.m */,
-				C95304E414FEE31700BF68B6 /* photo1.png */,
-				C95304E514FEE31700BF68B6 /* photo2.png */,
-				C95304E614FEE31700BF68B6 /* photo3.png */,
-				C95304E714FEE31700BF68B6 /* photo4.png */,
 				C95304CE14FECBB400BF68B6 /* Supporting Files */,
-				C95304E814FEE31700BF68B6 /* photo5.png */,
-				C95304E914FEE31700BF68B6 /* slow.png */,
 				5AE7A02C17380F790005DCF5 /* abcViewController.h */,
 				5AE7A02D17380F790005DCF5 /* abcViewController.m */,
 			);
@@ -596,18 +575,11 @@
 			files = (
 				C95304D214FECBB400BF68B6 /* InfoPlist.strings in Resources */,
 				C95304DB14FECBB400BF68B6 /* MainStoryboard.storyboard in Resources */,
-				C95304EA14FEE31700BF68B6 /* photo1.png in Resources */,
-				C95304EB14FEE31700BF68B6 /* photo2.png in Resources */,
-				C95304EC14FEE31700BF68B6 /* photo3.png in Resources */,
-				C95304ED14FEE31700BF68B6 /* photo4.png in Resources */,
-				C95304EE14FEE31700BF68B6 /* photo5.png in Resources */,
-				C95304EF14FEE31700BF68B6 /* slow.png in Resources */,
 				5AF610E01737A1B700CFF53F /* uicheckbox_checked.png in Resources */,
 				5AF610E11737A1B700CFF53F /* uicheckbox_checked@2x.png in Resources */,
 				5AF610E21737A1B700CFF53F /* uicheckbox_unchecked.png in Resources */,
 				5AF610E31737A1B700CFF53F /* uicheckbox_unchecked@2x.png in Resources */,
 				5AF610E81737A1D400CFF53F /* SVProgressHUD.bundle in Resources */,
-				5AF611101737A31400CFF53F /* MainStoryboard_iPhone4.storyboard in Resources */,
 				5AE7A041173811790005DCF5 /* banner.png in Resources */,
 				5AE7A042173811790005DCF5 /* background.jpg in Resources */,
 				5AE7A043173811790005DCF5 /* search.png in Resources */,

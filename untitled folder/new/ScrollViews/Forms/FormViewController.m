@@ -75,6 +75,29 @@
 #pragma mark TableViewDelegates
 
 
+//To use the default coordinates and the sections in TableView, with white-color font and shadow:
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    NSString *sectionTitle = [self tableView:tableView titleForHeaderInSection:section];
+    if (sectionTitle == nil) {
+        return nil;
+    }
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.frame = CGRectMake(20, 8, 320, 20);
+    label.backgroundColor = [UIColor clearColor];
+    label.textColor = [UIColor whiteColor];
+//    label.shadowColor = [UIColor grayColor];
+    label.shadowOffset = CGSizeMake(-1.0, 1.0);
+    label.font = [UIFont boldSystemFontOfSize:16];
+    label.text = sectionTitle;
+    
+    UIView *view = [[UIView alloc] init];
+    [view addSubview:label];
+    
+    return view;
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -94,8 +117,11 @@
 //RootViewController.m
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     
-    if(section == 0)
+    tableView.sectionIndexColor = [UIColor redColor];
+    if(section == 0){
+        tableView.sectionIndexColor = [UIColor redColor];
         return @"Select Age Group";
+    }
     else
         return @"Event Type";
 }
@@ -213,10 +239,10 @@
     
     NSLog(@"stringToAppend: %@", stringToAppend);
 
-    if([keyWord isEqualToString:@""] || [[self getEvents] isEqualToString:@""]
+    if([[self getEvents] isEqualToString:@""]
        || [[self getAges] isEqualToString:@""] ){
         
-        [CommonMethods showAlert:@"Alert" message:@"Please enter ateast one key word, check one age group and check one event"];
+        [CommonMethods showAlert:@"Alert" message:@"Please check at least one Age Group and one Event Type."];
         
     }else{
         [SVProgressHUD show];
