@@ -79,6 +79,23 @@
 		FAB1A89A175265E8006E191A /* formCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1A899175265E8006E191A /* formCell1.m */; };
 		FAB1A89F175271C2006E191A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB1A89B175271AD006E191A /* icon.png */; };
 		FAB1A8A0175271CA006E191A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB1A89C175271AD006E191A /* icon@2x.png */; };
+		FACDC63E175BBE4500BB5C49 /* HtmlWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC61F175BBE4500BB5C49 /* HtmlWebViewController.m */; };
+		FACDC63F175BBE4500BB5C49 /* PushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC621175BBE4500BB5C49 /* PushNotificationManager.m */; };
+		FACDC640175BBE4500BB5C49 /* PushRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC623175BBE4500BB5C49 /* PushRuntime.m */; };
+		FACDC641175BBE4500BB5C49 /* PW_SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC625175BBE4500BB5C49 /* PW_SBJsonBase.m */; };
+		FACDC642175BBE4500BB5C49 /* PW_SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC627175BBE4500BB5C49 /* PW_SBJsonParser.m */; };
+		FACDC643175BBE4500BB5C49 /* PW_SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC629175BBE4500BB5C49 /* PW_SBJsonWriter.m */; };
+		FACDC644175BBE4500BB5C49 /* PWApplicationEventRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC62B175BBE4500BB5C49 /* PWApplicationEventRequest.m */; };
+		FACDC645175BBE4500BB5C49 /* PWAppOpenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC62D175BBE4500BB5C49 /* PWAppOpenRequest.m */; };
+		FACDC646175BBE4500BB5C49 /* PWGetNearestZoneRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC62F175BBE4500BB5C49 /* PWGetNearestZoneRequest.m */; };
+		FACDC647175BBE4500BB5C49 /* PWLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC631175BBE4500BB5C49 /* PWLocationTracker.m */; };
+		FACDC648175BBE4500BB5C49 /* PWPushStatRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC633175BBE4500BB5C49 /* PWPushStatRequest.m */; };
+		FACDC649175BBE4500BB5C49 /* PWRegisterDeviceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC635175BBE4500BB5C49 /* PWRegisterDeviceRequest.m */; };
+		FACDC64A175BBE4500BB5C49 /* PWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC637175BBE4500BB5C49 /* PWRequest.m */; };
+		FACDC64B175BBE4500BB5C49 /* PWRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC639175BBE4500BB5C49 /* PWRequestManager.m */; };
+		FACDC64C175BBE4500BB5C49 /* PWSendBadgeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC63B175BBE4500BB5C49 /* PWSendBadgeRequest.m */; };
+		FACDC64D175BBE4500BB5C49 /* PWSetTagsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACDC63D175BBE4500BB5C49 /* PWSetTagsRequest.m */; };
+		FACDC64F175BBF8900BB5C49 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACDC64E175BBF8900BB5C49 /* CoreLocation.framework */; };
 		FAEBB93A17399C69009EE109 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBB93617399C69009EE109 /* check.png */; };
 		FAEBB93B17399C69009EE109 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBB93717399C69009EE109 /* check@2x.png */; };
 		FAEBB93C17399C69009EE109 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBB93817399C69009EE109 /* uncheck.png */; };
@@ -200,6 +217,39 @@
 		FAB1A899175265E8006E191A /* formCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = formCell1.m; sourceTree = "<group>"; };
 		FAB1A89B175271AD006E191A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		FAB1A89C175271AD006E191A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FACDC61E175BBE4500BB5C49 /* HtmlWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlWebViewController.h; sourceTree = "<group>"; };
+		FACDC61F175BBE4500BB5C49 /* HtmlWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlWebViewController.m; sourceTree = "<group>"; };
+		FACDC620175BBE4500BB5C49 /* PushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotificationManager.h; sourceTree = "<group>"; };
+		FACDC621175BBE4500BB5C49 /* PushNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotificationManager.m; sourceTree = "<group>"; };
+		FACDC622175BBE4500BB5C49 /* PushRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushRuntime.h; sourceTree = "<group>"; };
+		FACDC623175BBE4500BB5C49 /* PushRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushRuntime.m; sourceTree = "<group>"; };
+		FACDC624175BBE4500BB5C49 /* PW_SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PW_SBJsonBase.h; sourceTree = "<group>"; };
+		FACDC625175BBE4500BB5C49 /* PW_SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PW_SBJsonBase.m; sourceTree = "<group>"; };
+		FACDC626175BBE4500BB5C49 /* PW_SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PW_SBJsonParser.h; sourceTree = "<group>"; };
+		FACDC627175BBE4500BB5C49 /* PW_SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PW_SBJsonParser.m; sourceTree = "<group>"; };
+		FACDC628175BBE4500BB5C49 /* PW_SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PW_SBJsonWriter.h; sourceTree = "<group>"; };
+		FACDC629175BBE4500BB5C49 /* PW_SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PW_SBJsonWriter.m; sourceTree = "<group>"; };
+		FACDC62A175BBE4500BB5C49 /* PWApplicationEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWApplicationEventRequest.h; sourceTree = "<group>"; };
+		FACDC62B175BBE4500BB5C49 /* PWApplicationEventRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWApplicationEventRequest.m; sourceTree = "<group>"; };
+		FACDC62C175BBE4500BB5C49 /* PWAppOpenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAppOpenRequest.h; sourceTree = "<group>"; };
+		FACDC62D175BBE4500BB5C49 /* PWAppOpenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAppOpenRequest.m; sourceTree = "<group>"; };
+		FACDC62E175BBE4500BB5C49 /* PWGetNearestZoneRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWGetNearestZoneRequest.h; sourceTree = "<group>"; };
+		FACDC62F175BBE4500BB5C49 /* PWGetNearestZoneRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWGetNearestZoneRequest.m; sourceTree = "<group>"; };
+		FACDC630175BBE4500BB5C49 /* PWLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWLocationTracker.h; sourceTree = "<group>"; };
+		FACDC631175BBE4500BB5C49 /* PWLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWLocationTracker.m; sourceTree = "<group>"; };
+		FACDC632175BBE4500BB5C49 /* PWPushStatRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPushStatRequest.h; sourceTree = "<group>"; };
+		FACDC633175BBE4500BB5C49 /* PWPushStatRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPushStatRequest.m; sourceTree = "<group>"; };
+		FACDC634175BBE4500BB5C49 /* PWRegisterDeviceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWRegisterDeviceRequest.h; sourceTree = "<group>"; };
+		FACDC635175BBE4500BB5C49 /* PWRegisterDeviceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWRegisterDeviceRequest.m; sourceTree = "<group>"; };
+		FACDC636175BBE4500BB5C49 /* PWRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWRequest.h; sourceTree = "<group>"; };
+		FACDC637175BBE4500BB5C49 /* PWRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWRequest.m; sourceTree = "<group>"; };
+		FACDC638175BBE4500BB5C49 /* PWRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWRequestManager.h; sourceTree = "<group>"; };
+		FACDC639175BBE4500BB5C49 /* PWRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWRequestManager.m; sourceTree = "<group>"; };
+		FACDC63A175BBE4500BB5C49 /* PWSendBadgeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSendBadgeRequest.h; sourceTree = "<group>"; };
+		FACDC63B175BBE4500BB5C49 /* PWSendBadgeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSendBadgeRequest.m; sourceTree = "<group>"; };
+		FACDC63C175BBE4500BB5C49 /* PWSetTagsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSetTagsRequest.h; sourceTree = "<group>"; };
+		FACDC63D175BBE4500BB5C49 /* PWSetTagsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSetTagsRequest.m; sourceTree = "<group>"; };
+		FACDC64E175BBF8900BB5C49 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FAEBB93617399C69009EE109 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		FAEBB93717399C69009EE109 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
 		FAEBB93817399C69009EE109 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
@@ -211,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACDC64F175BBF8900BB5C49 /* CoreLocation.framework in Frameworks */,
 				5AF610D71737A19400CFF53F /* MediaPlayer.framework in Frameworks */,
 				5AF610B01737A10300CFF53F /* libxml2.dylib in Frameworks */,
 				5AF610AE1737A0EF00CFF53F /* CoreData.framework in Frameworks */,
@@ -429,6 +480,7 @@
 		C95304B814FECBB300BF68B6 = {
 			isa = PBXGroup;
 			children = (
+				FACDC61D175BBE4500BB5C49 /* pushWoosh */,
 				5A686F0117537B28008F58C1 /* Default-568h@2x.png */,
 				FAB1A89B175271AD006E191A /* icon.png */,
 				FAB1A89C175271AD006E191A /* icon@2x.png */,
@@ -455,6 +507,7 @@
 		C95304C614FECBB400BF68B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FACDC64E175BBF8900BB5C49 /* CoreLocation.framework */,
 				5AF610D61737A19400CFF53F /* MediaPlayer.framework */,
 				5AF610AF1737A10300CFF53F /* libxml2.dylib */,
 				5AF610AD1737A0EF00CFF53F /* CoreData.framework */,
@@ -520,6 +573,46 @@
 				FA17962A1742B17C00EFE797 /* RootViewController.m */,
 			);
 			path = ZOOM;
+			sourceTree = "<group>";
+		};
+		FACDC61D175BBE4500BB5C49 /* pushWoosh */ = {
+			isa = PBXGroup;
+			children = (
+				FACDC61E175BBE4500BB5C49 /* HtmlWebViewController.h */,
+				FACDC61F175BBE4500BB5C49 /* HtmlWebViewController.m */,
+				FACDC620175BBE4500BB5C49 /* PushNotificationManager.h */,
+				FACDC621175BBE4500BB5C49 /* PushNotificationManager.m */,
+				FACDC622175BBE4500BB5C49 /* PushRuntime.h */,
+				FACDC623175BBE4500BB5C49 /* PushRuntime.m */,
+				FACDC624175BBE4500BB5C49 /* PW_SBJsonBase.h */,
+				FACDC625175BBE4500BB5C49 /* PW_SBJsonBase.m */,
+				FACDC626175BBE4500BB5C49 /* PW_SBJsonParser.h */,
+				FACDC627175BBE4500BB5C49 /* PW_SBJsonParser.m */,
+				FACDC628175BBE4500BB5C49 /* PW_SBJsonWriter.h */,
+				FACDC629175BBE4500BB5C49 /* PW_SBJsonWriter.m */,
+				FACDC62A175BBE4500BB5C49 /* PWApplicationEventRequest.h */,
+				FACDC62B175BBE4500BB5C49 /* PWApplicationEventRequest.m */,
+				FACDC62C175BBE4500BB5C49 /* PWAppOpenRequest.h */,
+				FACDC62D175BBE4500BB5C49 /* PWAppOpenRequest.m */,
+				FACDC62E175BBE4500BB5C49 /* PWGetNearestZoneRequest.h */,
+				FACDC62F175BBE4500BB5C49 /* PWGetNearestZoneRequest.m */,
+				FACDC630175BBE4500BB5C49 /* PWLocationTracker.h */,
+				FACDC631175BBE4500BB5C49 /* PWLocationTracker.m */,
+				FACDC632175BBE4500BB5C49 /* PWPushStatRequest.h */,
+				FACDC633175BBE4500BB5C49 /* PWPushStatRequest.m */,
+				FACDC634175BBE4500BB5C49 /* PWRegisterDeviceRequest.h */,
+				FACDC635175BBE4500BB5C49 /* PWRegisterDeviceRequest.m */,
+				FACDC636175BBE4500BB5C49 /* PWRequest.h */,
+				FACDC637175BBE4500BB5C49 /* PWRequest.m */,
+				FACDC638175BBE4500BB5C49 /* PWRequestManager.h */,
+				FACDC639175BBE4500BB5C49 /* PWRequestManager.m */,
+				FACDC63A175BBE4500BB5C49 /* PWSendBadgeRequest.h */,
+				FACDC63B175BBE4500BB5C49 /* PWSendBadgeRequest.m */,
+				FACDC63C175BBE4500BB5C49 /* PWSetTagsRequest.h */,
+				FACDC63D175BBE4500BB5C49 /* PWSetTagsRequest.m */,
+			);
+			name = pushWoosh;
+			path = ScrollViews/Classes/AppClasses/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -647,6 +740,22 @@
 				5AE7A02E17380F790005DCF5 /* abcViewController.m in Sources */,
 				FA17962B1742B17C00EFE797 /* RootViewController.m in Sources */,
 				FAB1A89A175265E8006E191A /* formCell1.m in Sources */,
+				FACDC63E175BBE4500BB5C49 /* HtmlWebViewController.m in Sources */,
+				FACDC63F175BBE4500BB5C49 /* PushNotificationManager.m in Sources */,
+				FACDC640175BBE4500BB5C49 /* PushRuntime.m in Sources */,
+				FACDC641175BBE4500BB5C49 /* PW_SBJsonBase.m in Sources */,
+				FACDC642175BBE4500BB5C49 /* PW_SBJsonParser.m in Sources */,
+				FACDC643175BBE4500BB5C49 /* PW_SBJsonWriter.m in Sources */,
+				FACDC644175BBE4500BB5C49 /* PWApplicationEventRequest.m in Sources */,
+				FACDC645175BBE4500BB5C49 /* PWAppOpenRequest.m in Sources */,
+				FACDC646175BBE4500BB5C49 /* PWGetNearestZoneRequest.m in Sources */,
+				FACDC647175BBE4500BB5C49 /* PWLocationTracker.m in Sources */,
+				FACDC648175BBE4500BB5C49 /* PWPushStatRequest.m in Sources */,
+				FACDC649175BBE4500BB5C49 /* PWRegisterDeviceRequest.m in Sources */,
+				FACDC64A175BBE4500BB5C49 /* PWRequest.m in Sources */,
+				FACDC64B175BBE4500BB5C49 /* PWRequestManager.m in Sources */,
+				FACDC64C175BBE4500BB5C49 /* PWSendBadgeRequest.m in Sources */,
+				FACDC64D175BBE4500BB5C49 /* PWSetTagsRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,8 +787,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wajid Tarar (A9XC62XE53)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wajid Tarar (A9XC62XE53)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -694,8 +803,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "A74DE881-D5CF-4928-9E71-23DDD610BBFC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A74DE881-D5CF-4928-9E71-23DDD610BBFC";
+				PROVISIONING_PROFILE = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -706,8 +815,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Wajid Tarar (A9XC62XE53)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wajid Tarar (A9XC62XE53)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -716,8 +825,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "A74DE881-D5CF-4928-9E71-23DDD610BBFC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A74DE881-D5CF-4928-9E71-23DDD610BBFC";
+				PROVISIONING_PROFILE = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -726,14 +835,15 @@
 		C95304E214FECBB400BF68B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Muhammad Uzair Arshad (39ERK494F3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Muhammad Uzair Arshad (39ERK494F3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrollViews/KC BLAST-Prefix.pch";
+				HEADER_SEARCH_PATHS = pushWoosh;
 				INFOPLIST_FILE = "ScrollViews/KC BLAST-Info.plist";
 				PRODUCT_NAME = "KC BLAST";
-				PROVISIONING_PROFILE = "01D3D3FB-10B8-42CA-A569-31F6C6DCC4FC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01D3D3FB-10B8-42CA-A569-31F6C6DCC4FC";
+				PROVISIONING_PROFILE = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -741,14 +851,15 @@
 		C95304E314FECBB400BF68B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Muhammad Uzair Arshad (39ERK494F3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Muhammad Uzair Arshad (39ERK494F3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Martinis Woods (XZ66YNG3EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScrollViews/KC BLAST-Prefix.pch";
+				HEADER_SEARCH_PATHS = pushWoosh;
 				INFOPLIST_FILE = "ScrollViews/KC BLAST-Info.plist";
 				PRODUCT_NAME = "KC BLAST";
-				PROVISIONING_PROFILE = "01D3D3FB-10B8-42CA-A569-31F6C6DCC4FC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "01D3D3FB-10B8-42CA-A569-31F6C6DCC4FC";
+				PROVISIONING_PROFILE = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "886EAC96-38F8-4EFE-8E3D-CF82B0A43984";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

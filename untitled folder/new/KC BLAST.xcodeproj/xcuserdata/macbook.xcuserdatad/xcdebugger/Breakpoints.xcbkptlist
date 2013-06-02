@@ -123,11 +123,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ScrollViews/AppDelegate.m"
-         timestampString = "391279192.751772"
+         timestampString = "391888097.618573"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "61"
-         endingLineNumber = "61"
+         startingLineNumber = "74"
+         endingLineNumber = "74"
          landmarkName = "-initializeStoryBoardBasedOnScreenSize"
          landmarkType = "5">
       </FileBreakpoint>
@@ -136,11 +136,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ScrollViews/AppDelegate.m"
-         timestampString = "391279245.594153"
+         timestampString = "391888097.618573"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "20"
-         endingLineNumber = "20"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
          landmarkName = "-application:didFinishLaunchingWithOptions:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -149,11 +149,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ScrollViews/AppDelegate.m"
-         timestampString = "391372354.041829"
+         timestampString = "391888097.618573"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "74"
-         endingLineNumber = "74"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
          landmarkName = "-initializeStoryBoardBasedOnScreenSize"
          landmarkType = "5">
       </FileBreakpoint>

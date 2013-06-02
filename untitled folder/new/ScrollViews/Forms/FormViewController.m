@@ -117,9 +117,8 @@
 //RootViewController.m
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     
-    tableView.sectionIndexColor = [UIColor redColor];
+
     if(section == 0){
-        tableView.sectionIndexColor = [UIColor redColor];
         return @"Select Age Group";
     }
     else

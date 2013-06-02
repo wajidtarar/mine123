@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PushNotificationManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

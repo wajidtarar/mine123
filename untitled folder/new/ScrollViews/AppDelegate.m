@@ -16,6 +16,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    // Setup Push Notifications APNs
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+     (UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
+    
+    
     // Override point for customization after application launch.
     [self initializeStoryBoardBasedOnScreenSize];
     self.imagesLinks = [[NSMutableArray alloc] init];
@@ -25,7 +32,13 @@
     
     return YES;
 }
-							
+
+// FOR PUSH NOTIFICATIONS, THIS FUNCTION IS REQUIRED
+- (void) onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification {
+    NSLog(@"Push notification received");
+}
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
